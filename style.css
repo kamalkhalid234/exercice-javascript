@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(231, 237, 237);
+}
+.titre{
+    font-size: 20px;
+}
+.logo{
+    color: blue;
+    background-color: aqua;
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -20px 14px 24px 6px rgba(255,15,15,0.78);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kamal,.kamal1,.kamal2,.kamal3,.kamal4,.kamal5,.kamal6,.kamal7,
+.kamal8,.kamal9,.kamal10,.kamal1{
+    height: 150px ;
+    width: 200px;
+   
+}
+.kamal{
+    background-color: rgb(255, 0, 0);
+}
+.kamal1{
+    background-color: rgb(126, 239, 51);
+ 
+}
+.kamal2{
+    background-color: rgb(255, 0, 217);
+}
+.kamal3{
+    background-color: rgb(70, 207, 223);
+}
+.kamal4{
+    background-color: rgb(124, 68, 9);
+}
+.kamal5{
+    background-color: rgb(170, 55, 185);
+}
+.kamal6{
+    background-color: rgb(25, 0, 255);
+}
+.kamal7{
+    background-color: rgb(129, 123, 181);
+}
+.kamal8{
+    background-color: rgb(52, 145, 220);
+}
+.kamal9{
+    background-color: rgb(10, 76, 7);
+}
+.kamal10{
+    background-color: rgb(198, 236, 9);
+}
+.kamal11{
+    background-color: rgb(235, 144, 18);
+}
+
+
+.row{
+    display: flex;
+    margin-top: 20px;
+}
+.col-2{
+    border: 15px solid black;
+    max-width: 40vw;
+    margin-left: 20%;
+}
+.col-2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+ @media only screen and (max-width: 50em){
+    .row h1{
+        font-size: 12px;
+    }
+    .col-2{
+        border: 5px solid black;
+        max-width: 160px;
+        margin-left: 10%;
+    }
+ }
+  @media only screen and (max-width: 70em){
+    .row h1{
+        font-size: 14px;
+    }
+    .col-2{
+        border: 8px solid black;
+        max-width: 160px;
+        margin-left: 10%;
+    }
+ }
+   @media only screen and (max-width: 90em){
+    .row h1{
+        font-size: 18px;
+    }
+    .col-2{
+        border: 5px solid black;
+        max-width: 300px;
+        margin-left: 20%;
+    }
+ }
+   
